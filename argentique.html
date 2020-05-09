@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Argentique</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+
+.image {
+    margin: 3vw;
+     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+#bouton {
+cursor: pointer; 
+background: none;
+border:none;
+font-size: 50px; 
+padding: 0;
+vertical-align: top; 
+line-height: 47px; 
+float: right; 
+margin-right: 32px;
+background-color: rgb(250, 137, 92, 0.5);
+
+}
+
+#finbouton{
+    position:fixed; 
+    z-index: 10; 
+    top:1;
+    left: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 137, 92, 0.5);
+    padding:1vw; 
+
+
+}
+#bouton {animation:.5s slideRight ease-in forwards; transition-delay:0;}
+#finbouton {animation:1s slideLeft ease-out forwards; transition-delay:0;}
+
+/* Animations pour le menu slide */
+@keyframes slideLeft {
+	from {left:-50%;}
+	to {left:0%;}
+}
+@-webkit-keyframes slideLeft {
+	from {left:-50%;}
+	to {left:0%;}
+}
+@keyframes slideRight {
+	from {left:0%;}
+	to {left:-50%;}
+}
+@-webkit-keyframes slideRight {
+	from {left:0%;}
+	to {left:-50%;}
+}
+
+#texte{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+
+        <div id="bouton" style="color: black; font-size: 1.2vw;"></div>
+        <div id="finbouton" style="width: 35vw; height: inherit">
+           
+            <div id="texte" > Passionnée de photographie j'ai testé l'argentique ainsi que le  procédé de développement au Cafénol. 
+         </div>
+         </div>
+             
+<img class="image" src="argent.jpg">
+<img class="image" src="argent1.jpg">
+<img class="image" src="argent2.jpg">
+<img class="image" src="argent3.jpg">
+<img class="image" src="argent4.jpg">
+<img class="image" src="argent5.jpg">
+<img class="image" src="argent6.jpg">
+<img class="image" src="argent7.jpg">
+<img class="image" src="argent8.jpg">
+<img class="image" src="argent9.jpg">
+<img class="image" src="argent10.jpg">
+
+  
+       
+
+</div>
+
+</body>
+
+</html>
